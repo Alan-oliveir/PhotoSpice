@@ -1,6 +1,6 @@
-# PhotoSpice Web
+# photospice_web
 
-Interface web do sistema PhotoSpice, desenvolvida com Vue 3 e Vite. Esta parte do projeto é responsável por fornecer a interface de usuário para upload de imagens de circuitos, exibição da netlist gerada, configuração de parâmetros de simulação e visualização dos resultados.
+Interface web do sistema PhotoSpice, desenvolvida com Vue 3 em Vite. Esta parte do projeto é responsável por fornecer a interface de usuário para upload de imagens de circuitos, exibição da netlist gerada, configuração de parâmetros de simulação e visualização dos resultados.
 
 ## Funcionalidades
 
@@ -10,25 +10,15 @@ Interface web do sistema PhotoSpice, desenvolvida com Vue 3 e Vite. Esta parte d
 - Configuração de parâmetros de simulação (ponto de operação ou análise transiente)
 - Visualização dos resultados (tensões nodais ou gráficos de tensão/corrente)
 
-## Tecnologias Utilizadas
+## IDE Recomendada
 
-- Vue.js 3 - Framework JavaScript progressivo
-- Vite - Build tool e dev server
-- Bootstrap - Framework CSS para estilização
-- Axios - Cliente HTTP para comunicação com o backend
-- Matplotlib (renderização) - Para exibição dos gráficos de simulação
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (e desabilite o Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Configuração do Ambiente de Desenvolvimento
-
-### IDE Recomendada
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (desabilite o Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-### Configuração Personalizada
+## Configuração Personalizada
 
 Veja a [Referência de Configuração do Vite](https://vitejs.dev/config/).
 
-### Instalação do Projeto
+## Configuração do Projeto
 
 ```sh
 npm install
@@ -60,4 +50,8 @@ Esta interface web se comunica com o servidor Flask localizado na pasta `server`
 1. Inicie o servidor backend (veja instruções no README da pasta `server`)
 2. Inicie a aplicação web com `npm run dev`
 3. Acesse a interface pelo navegador (geralmente em http://localhost:5173)
-4. Faça upload da imagem do circuito e siga as instruções na interface
+4. Faça upload da imagem do circuito
+5. Após a análise, verifique e edite a netlist se necessário
+6. Escolha o tipo de simulação (ponto de operação ou análise transiente)
+7. Para análise transiente, configure os parâmetros de tempo e selecione os componentes/nós para visualização
+8. Visualize os resultados da simulação
