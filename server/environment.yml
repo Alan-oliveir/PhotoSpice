@@ -1,0 +1,27 @@
+name: photospice
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - seaborn
+  - albumentations
+  - pillow
+  - pyyaml
+  - numpy
+  - opencv
+  - torchaudio
+  - scipy
+  - torchvision
+  - cpuonly
+  - matplotlib-inline
+  - pytorch
+  - matplotlib
+  - protobuf
+  - tqdm
+  - pandas
+  - flask
+  - flask-cors
+  - ngspice
+  - pyspice
+  - conda-build
