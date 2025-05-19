@@ -12,6 +12,10 @@ Os simuladores SPICE atualmente são ótimas ferramentas ao se trabalhar com ele
 
 O PhotoSpice busca simplificar o processo de simulação para fins de estudo, permitindo que os usuários tirem uma foto do circuito com um smartphone e enviem para análise imediata. O projeto também teve inspiração em aplicações similares que fazem a solução de equações matemáticas a partir de fotos.
 
+### Vídeo do Projeto  
+
+[PhotoSpice](https://youtu.be/VwTYSiOtutM)
+
 ## 🚀 Funcionalidades
 
 - **Captura de imagem**: Use seu smartphone ou upload de arquivo para enviar o esquemático do circuito
